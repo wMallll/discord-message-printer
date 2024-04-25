@@ -1,0 +1,1 @@
+declare module "@skyra/discord-components-react";

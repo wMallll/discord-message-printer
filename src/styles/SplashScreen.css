@@ -1,0 +1,35 @@
+#splash-screen {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    background-color: var(--bs-body-bg);
+    transition: opacity .3s ease;
+}
+
+#splash-screen img {
+    position: fixed;
+    width: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+#splash-screen img#animation {
+    animation: SplashScreenZoom 0.5s ease forwards;
+}
+
+@keyframes SplashScreenZoom {
+    0% {
+        opacity: 0;
+        width: 300px;
+    }
+    60% {
+        opacity: 1;
+    }
+    100% {
+        width: 200px;
+        opacity: 1;
+    }
+}

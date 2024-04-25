@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#root {
+    margin: 30px;
+    user-select: none;
+}
+
+.hover-darker {
+    transition: all .15s ease;
+}
+
+.hover-darker:hover {
+    opacity: 0.8;
+}
+
+input[type="password"]:valid,
+input[type="text"]:valid,
+input:invalid[type="password"], 
+input:invalid[type="text"] {
+    background-image: none !important;
+}
+
+discord-message * {
+    white-space: normal !important;
+}
+
+.link {
+    cursor: pointer;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
