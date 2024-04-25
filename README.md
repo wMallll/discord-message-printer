@@ -6,8 +6,9 @@
 * Windows (ia32 & x64)
 * Mac OS (x64)
 * Linux (x64)
-# 🚀 Installation
-https://github.com/wMallll/discord-message-printer/releases/tag/v1.0.0
+
+# 🚀 Download
+https://github.com/wMallll/discord-message-printer/releases
 
 # ❓ How to use
 https://www.youtube.com/watch?v=YBvFBMsngvY
